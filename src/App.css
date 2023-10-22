@@ -1,0 +1,44 @@
+.APP{
+  background-color: var(--read-background);
+  min-height: 100vh;
+}
+
+.App{
+  /* padding: 1rem; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 45vw;
+} 
+
+.padding{
+  padding: 1rem;
+}
+
+.page{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.filter{
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  padding: 1rem;
+  color: black;
+}
+
+.btn-filter{
+  border: none;
+  background-color: transparent;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.btn-active{
+  border-radius: 0.6rem;
+  background-color: var(--filter-button);
+}
